@@ -20,13 +20,13 @@ namespace onthi.Controllers
         public IActionResult LoadHH(int mid)
         {
 			var hang = db.HangHoas.Where(m => m.Gia > 100).Where(l => l.MaLoai == mid).ToList();
-			return View("LoadHH",hang);
+			return PartialView("LoadHH",hang);
 			
 		}
 		[HttpGet]
 		public IActionResult Create()
 		{
-			ViewBag.LoaiHang = new SelectList(db.LoaiHangs, "MaLoai", "TenLoai");
+            ViewBag.MaLoai = new SelectList(db.LoaiHangs, "MaLoai", "TenLoai");
 			return View();
 		}
 		[HttpPost]
@@ -34,7 +34,8 @@ namespace onthi.Controllers
 		{
 			db.HangHoas.Add(h);
 			db.SaveChanges();
-			return Redirect (nameof(TranCongChien_MainContent));
-		}
+            return RedirectToAction(nameof(TranCongChien_MainContent));
+
+        }
 	}
 }
