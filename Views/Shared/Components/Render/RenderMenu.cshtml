@@ -1,0 +1,10 @@
+﻿@model IEnumerable<LoaiHang>
+<li class="active"><a href="/">Trần Công Chiến</a></li>
+@* @foreach(var item in Model)
+{
+    <li><a  asp-action="TranCongChien_MainContent" asp-route-mid="@item.MaLoai">@item.TenLoai</a></li>
+} *@
+@foreach (var item in Model)
+{
+    <li id="@item.MaLoai" class="menu_item"><a>@item.TenLoai</a></li>
+}

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Tạo mới";
+    Layout = "~/Views/Shared/TranCongChien_Layout.cshtml";
+}
+@model HangHoa
+<h1>Trần Công Chiến</h1>
+<h2>Thêm sản phẩm</h2>
+<hr/>
+<form asp-controller="TranChienChien" asp-action="Create" method="post">
+    <label asp-for="MaLoai">Loại hàng</label>
+    <br />
+    <select asp-for="MaLoai" asp-items="@ViewBag.LoaiHang"></select>
+    <br />
+    <label asp-for="TenHang">Tên hàng</label>
+    <br />
+    <input asp-for="TenHang" type="text" />
+    <br />
+    <label asp-for="Gia">Giá</label>
+    <br />
+    <input asp-for="Gia" type="text" />
+    <br />
+    <label asp-for="Anh">Ảnh</label>
+    <br />
+    <input asp-for="Anh" type="text" />
+    <br />
+    <button type="submit">Create</button>
+</form>
+

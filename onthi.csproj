@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>89abef9c-a8e2-431f-8561-1015bd9661dd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\font\Amble-Regular-webfont.ttf" />
+    <None Include="wwwroot\images\about_img.jpg" />
+    <None Include="wwwroot\images\arrow-next.png" />
+    <None Include="wwwroot\images\arrow-prev.png" />
+    <None Include="wwwroot\images\arrow_up.png" />
+    <None Include="wwwroot\images\compare.png" />
+    <None Include="wwwroot\images\delivery-img1.jpg" />
+    <None Include="wwwroot\images\delivery-img2.jpg" />
+    <None Include="wwwroot\images\delivery-img3.jpg" />
+    <None Include="wwwroot\images\dribbble.png" />
+    <None Include="wwwroot\images\drop_arrow-hover.png" />
+    <None Include="wwwroot\images\drop_arrow.png" />
+    <None Include="wwwroot\images\facebook.png" />
+    <None Include="wwwroot\images\feature-pic1.jpg" />
+    <None Include="wwwroot\images\feature-pic2.jpg" />
+    <None Include="wwwroot\images\feature-pic3.jpg" />
+    <None Include="wwwroot\images\feature-pic4.jpg" />
+    <None Include="wwwroot\images\Img_1.jpg" />
+    <None Include="wwwroot\images\Img_2.jpg" />
+    <None Include="wwwroot\images\Img_3.jpg" />
+    <None Include="wwwroot\images\Img_4.jpg" />
+    <None Include="wwwroot\images\Img_5.jpg" />
+    <None Include="wwwroot\images\Img_6.jpg" />
+    <None Include="wwwroot\images\linkedin.png" />
+    <None Include="wwwroot\images\list-img.png" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\new-pic1.jpg" />
+    <None Include="wwwroot\images\new-pic2.jpg" />
+    <None Include="wwwroot\images\new-pic3.jpg" />
+    <None Include="wwwroot\images\new-pic4.jpg" />
+    <None Include="wwwroot\images\newsimg1.jpg" />
+    <None Include="wwwroot\images\newsimg2.jpg" />
+    <None Include="wwwroot\images\newsimg3.jpg" />
+    <None Include="wwwroot\images\preview.jpg" />
+    <None Include="wwwroot\images\price-rating.png" />
+    <None Include="wwwroot\images\productslide-1.jpg" />
+    <None Include="wwwroot\images\productslide-2.jpg" />
+    <None Include="wwwroot\images\productslide-3.jpg" />
+    <None Include="wwwroot\images\productslide-4.jpg" />
+    <None Include="wwwroot\images\productslide-5.jpg" />
+    <None Include="wwwroot\images\productslide-6.jpg" />
+    <None Include="wwwroot\images\quality-rating.png" />
+    <None Include="wwwroot\images\search.png" />
+    <None Include="wwwroot\images\skype.png" />
+    <None Include="wwwroot\images\slide-1-image.png" />
+    <None Include="wwwroot\images\slide-2-image.jpg" />
+    <None Include="wwwroot\images\slide-3-image.jpg" />
+    <None Include="wwwroot\images\tag.png" />
+    <None Include="wwwroot\images\thumbnailslide-1.jpg" />
+    <None Include="wwwroot\images\thumbnailslide-2.jpg" />
+    <None Include="wwwroot\images\thumbnailslide-3.jpg" />
+    <None Include="wwwroot\images\thumbnailslide-4.jpg" />
+    <None Include="wwwroot\images\thumbnailslide-5.jpg" />
+    <None Include="wwwroot\images\thumbnailslide-6.jpg" />
+    <None Include="wwwroot\images\Thumbs.db" />
+    <None Include="wwwroot\images\twitter.png" />
+    <None Include="wwwroot\images\value-rating.png" />
+    <None Include="wwwroot\images\wishlist.png" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewComponents\" />
+  </ItemGroup>
+
+</Project>
